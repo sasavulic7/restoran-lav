@@ -98,7 +98,7 @@ function About() {
                 </div>
                 <div>
                   <h4 className="text-lg font-semibold text-gray-800">Lokacija</h4>
-                  <p className="text-gray-600">Kneginje Milice bb, Jagodina</p>
+                  <p className="text-gray-600">Kneginje Milice 99, Jagodina</p>
                 </div>
               </div>
               
