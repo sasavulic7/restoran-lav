@@ -47,10 +47,10 @@ function Navbar() {
                   <div className="md:hidden pb-4">
                       <div className="flex flex-col space-y-3">
                           <MobileNavLink href="/" text="Početna" />
-                          <MobileNavLink href="/about" text="O nama" />
-                          <MobileNavLink href="/menu" text="Jelovnik" />
-                          <MobileNavLink href="/gallery" text="Galerija" />
-                          <MobileNavLink href="/contact" text="Kontakt" />
+                          <MobileNavLink href="/o-nama" text="O nama" />
+                          <MobileNavLink href="/jelovnik" text="Jelovnik" />
+                          <MobileNavLink href="/galerija" text="Galerija" />
+                          <MobileNavLink href="/kontakt" text="Kontakt" />
                       </div>
                   </div>
               )}
