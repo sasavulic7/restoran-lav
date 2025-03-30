@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter, Route } from 'react-router-dom'
 import { Routes } from 'react-router-dom'
-import Homepage from './pages/Homepage'
+import HomePage from './pages/HomePage'
 import Contact from './pages/Contact'
 import About from './pages/About'
 import Menu from './pages/Menu'
@@ -11,7 +11,7 @@ function App() {
   return (
     <BrowserRouter>
     <Routes>
-      <Route path="/" element={<Homepage />} />
+      <Route path="/" element={<HomePage />} />
       <Route path="/kontakt" element={<Contact />} />
       <Route path="/o-nama" element={<About />} />
       <Route path="/jelovnik" element={<Menu />} />

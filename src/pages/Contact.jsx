@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
-function ContactPage() {
+function Contact() {
 useEffect(() => {
     document.title = "Restoran Lav - Kontakt";
   }, []);
@@ -147,4 +147,4 @@ useEffect(() => {
   );
 };
 
-export default ContactPage;
+export default Contact;

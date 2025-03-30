@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
-function AboutPage() {
+function About() {
 
   useEffect(() => {
     document.title = "Restoran Lav - O nama";
@@ -158,4 +158,4 @@ function AboutPage() {
   );
 }
 
-export default AboutPage;
+export default About;
